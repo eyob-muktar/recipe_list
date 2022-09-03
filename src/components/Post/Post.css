@@ -1,0 +1,64 @@
+.card {
+  min-width: 200px;
+  max-width: 345px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 1.25rem;
+  line-height: 1;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+  background-color: rgb(244, 67, 54);
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.avatarBtn {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.postTitle {
+  margin: 0px;
+  font-family: "Roboto", "Oxygen", "Ubuntu";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.43;
+  display: block;
+}
+
+.postDescription {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8rem;
+  color: #555;
+  margin: 0;
+}
+
+#viewBtn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.hashtagLinks {
+  line-height: 1rem;
+}
+
+.hashtagLinks a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
