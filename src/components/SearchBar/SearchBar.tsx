@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import './SearchBar.css'
 
 type SearchBarProps = { handleSearch: Function}
@@ -14,10 +14,10 @@ const SearchBar = ({ handleSearch }: SearchBarProps) => {
 
   return (
 	<div>
-	  <label className={focused ? "search active": "search"} htmlFor="search_input">
+	  <label className={focused ? 'search active': 'search'} htmlFor='search_input'>
         <input
-          id="search_input"
-          type="text"
+          id='search_input'
+          type='text'
           value={input}
           onChange={handleChange}
           onFocus={() => setFocused(true)}

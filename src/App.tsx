@@ -1,13 +1,13 @@
-import React, { useState, useRef, useCallback } from "react";
-import { Container } from "react-bootstrap";
+import React, { useState, useRef, useCallback } from 'react';
+import { Container } from 'react-bootstrap';
 
-import Header from "./components/Header/Header";
+import Header from './components/Header/Header';
 import './App.css';
-import SearchBar from "./components/SearchBar/SearchBar";
-import PostList from "./components/PostList/PostList";
-import LoadingSpinner from "./components/LoadingSpinner/LoadingSpinner";
-import usePostsFetch from "./hooks/usePostsFetch";
-import Error from "./components/Error/Error";
+import SearchBar from './components/SearchBar/SearchBar';
+import PostList from './components/PostList/PostList';
+import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner';
+import usePostsFetch from './hooks/usePostsFetch';
+import Error from './components/Error/Error';
 
 function App() {
   const [query, setQuery] = useState('')
@@ -38,7 +38,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
       <Container>
         <SearchBar handleSearch={handleSearch}/>
